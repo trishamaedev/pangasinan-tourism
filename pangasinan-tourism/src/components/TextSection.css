@@ -1,0 +1,39 @@
+.text-section {
+  padding: 96px 0;
+}
+
+.text-section--light {
+  background: var(--cream);
+}
+
+.text-section--sand {
+  background: var(--sand);
+}
+
+.text-section__inner {
+  max-width: 760px;
+}
+
+.text-section__kicker {
+  color: var(--terracotta);
+  font-weight: 600;
+  margin-bottom: 14px;
+  font-size: 1rem;
+}
+
+.text-section h2 {
+  font-size: clamp(1.9rem, 3.4vw, 2.4rem);
+  margin-bottom: 22px;
+}
+
+.text-section p {
+  font-size: 1.08rem;
+  color: rgba(23, 42, 58, 0.75);
+  max-width: 68ch;
+}
+
+@media (max-width: 640px) {
+  .text-section {
+    padding: 64px 0;
+  }
+}
